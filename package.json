@@ -1,0 +1,14 @@
+
+{
+  "name": "tripmate",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.34.9",
+  "scripts": {
+    "dev:mobile": "pnpm --filter @tripmate/mobile start",
+    "dev:api": "pnpm --filter @tripmate/api start:dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  }
+}
